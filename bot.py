@@ -1,4 +1,4 @@
-class TemplateBot:
+class BotMaker:
     def __init__(self, name, power, armor, speed):
         self.__name = name             # private
         self._armor = armor            # protected
