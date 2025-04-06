@@ -9,7 +9,7 @@ BattleBot Arena is a Python-based object-oriented combat simulator where players
 
 (For your UML diagram)
 
-	•	BattleBot: base class
+	•	Bot: base class
  
  	•	TankBot and SpeedBot: derived from BattleBot
  
@@ -24,11 +24,11 @@ BattleBot Arena is a Python-based object-oriented combat simulator where players
 
 Student A
 
-Implements: BattleBot, TankBot, SpeedBot, Weapon
+Implements: Bot, TankBot, SpeedBot, Weapon
 
 Checklist 1 (All Required):
 
-	•	3+ classes: BattleBot, TankBot, SpeedBot
+	•	3+ classes: Bot, TankBot, SpeedBot
 	•	5+ methods: init, attack, equip_weapon, take_damage, str
 	•	3 encapsulated attributes:
 	•	Private: __name
